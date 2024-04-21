@@ -5,3 +5,32 @@ Zadanie: na podstawie zdobytej wiedzy o tagach HTML napisz kod, który będzie d
 🌟 dla chętnych: dodaj specjalne atrybuty do formularza które włączą natywną walidację inputów - rezultat
 zweryfikuj submitując formularz
 -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label>
+        Jak masz na imię?
+        <input placeholder="Podaj imię" required type="text" />
+      </label>
+      <label>
+        Jak masz na nazwisko?
+        <input placeholder="Podaj nazwisko" required type="text" />
+      </label>
+      <label>
+        Podaj hasło
+        <input placeholder="Podaj hasło" required type="password" />
+      </label>
+      <label>
+        Powtórz hasło
+        <input placeholder="Powtórz hasło" required type="password" />
+      </label>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>

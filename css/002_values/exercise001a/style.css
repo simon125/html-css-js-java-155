@@ -1,0 +1,21 @@
+body {
+  background-color: #999;
+}
+.heading {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 300;
+}
+p {
+  color: red;
+  font-size: 20px;
+}
+ul {
+  margin: 100px;
+}
+li {
+  background-color: violet;
+}
+.list-item--white {
+  background-color: white;
+}

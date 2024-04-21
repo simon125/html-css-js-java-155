@@ -1,0 +1,39 @@
+/* selektor elementu po nazwie elementu */
+body {
+  background-color: deepskyblue;
+}
+/* selektor elementu po atrybucie class */
+.paragraph-1 {
+  color: red;
+}
+/* selektor elementu po atrybucie id */
+#paragaph-2 {
+  color: white;
+}
+
+p {
+  color: greenyellow;
+}
+
+p {
+  /*ten blok kodu nadpisuje ten z góry zgodnie z zasadą kaskawodości */
+  color: goldenrod;
+}
+
+.button {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(41, 90, 145);
+}
+
+.ad-message {
+  color: blue;
+}
+
+section .ad-message {
+  color: red;
+}

@@ -4,6 +4,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      .second-list-item {
+        color: lawngreen;
+        letter-spacing: 10px;
+        background-color: aqua;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
   </head>
   <body>
     <h1>CSS INTRO</h1>
@@ -12,9 +24,10 @@
       <li>
         Sposoby na CSS
         <ul>
-          <li>Inline style</li>
-          <li>Tag style</li>
-          <li>Plik zewnętrzny</li>
+          <li style="color: #29c57f; letter-spacing: 5px">Inline style</li>
+          <li class="second-list-item">Tag style</li>
+          <li class="second-list-item">Kolejny LI z taką samą klasą</li>
+          <li class="third-list-item">Plik zewnętrzny</li>
           <li>Biblioteki CSSowe</li>
         </ul>
       </li>

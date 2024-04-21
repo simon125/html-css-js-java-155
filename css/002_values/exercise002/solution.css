@@ -3,11 +3,11 @@
   padding: 10px 20px;
   margin: 5px;
   border: none;
+  cursor: pointer;
 }
 
 .btn:hover {
   opacity: 0.9;
-  cursor: pointer;
 }
 
 .btn--submit {

@@ -14,3 +14,87 @@
       }
     </style>
  -->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Todo</th>
+          <th>Priority</th>
+          <th>Status</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Pouczyć się JSa</td>
+          <td>
+            <select>
+              <option value="low">Low</option>
+              <option value="medium" selected>Medium</option>
+              <option value="high">High</option>
+            </select>
+          </td>
+          <td>
+            <input type="checkbox" checked readonly />
+          </td>
+          <td>
+            <button>&times;</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Pouczyć się CSSa</td>
+          <td>
+            <select>
+              <option value="low">Low</option>
+              <option value="medium">Medium</option>
+              <option value="high" selected>High</option>
+            </select>
+          </td>
+          <td>
+            <input type="checkbox" readonly />
+          </td>
+          <td>
+            <button>&times;</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Imię</th>
+          <th>Nazwisko</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Jane</td>
+          <td>Doe</td>
+          <td>22</td>
+        </tr>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>19</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+.typography {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  color: blue;
+  letter-spacing: 3px;
+  line-height: 2;
+
+  background: green;
+  border: 10px blue solid;
+  border-radius: 10px;
+
+  /* Wartość none chowa element */
+  /* display: none;  */
+
+  width: 500px;
+  min-height: 50px;
+  /* height: 50px; */
+  /* display: inline-block; */
+  padding: 20px;
+  /* margin: 20px; */
+  /* Box model - szerokosć elementu z defaultu nie zawiera 
+     paddingu i borderu co jest mało intuicyjne
+     box-sizing: border-box; zmienia to zachowanie */
+  box-sizing: border-box;
+  /* margin: y x; */
+  margin: 20px auto;
+}
+
+.btn {
+  background-color: blue;
+  color: white;
+  border: none;
+  /* padding: top right bottom left */
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: rgb(59, 59, 255);
+}
